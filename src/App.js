@@ -6,7 +6,7 @@ import GetUserComponent from "./components/GetUserComponent";
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState("");
-  console.log(isLoggedIn);
+
   return (
     <div className="App">
       <header className="App-header">
